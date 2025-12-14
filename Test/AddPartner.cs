@@ -185,7 +185,7 @@ namespace Test
                     panelPartner.Director = "Директор: " + textDirector.Text;
                     panelPartner.Phone = "Телефон: " + maskedPhone.Text;
                     panelPartner.Rating = "Рейтинг: " + numericRating.Text;
-                    panelPartner.Discount = "Скидка: 0%";
+                    panelPartner.Discount = panelPartner.Discount;
                     panelPartner.UrlImage = selectedImageFileName;
                     panelPartner.Inn = maskedInn.Text;
                     panelPartner.setLabels();
